@@ -1,0 +1,154 @@
+.category_carousel .VueCarousel-dot:first-of-type {
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+.category_carousel .VueCarousel-dot:last-of-type {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+.VueCarousel-dot {
+    border-radius: 0px !important;
+    margin: 0 !important;
+    margin-top: 25px !important;
+    width: 25px !important;
+}
+.VueCarousel-dot--active {
+    border-radius: 15px !important;
+    margin: 0 !important;
+    margin-top: 25px !important;
+    width: 25px !important;
+}
+.mynav {
+    z-index: 5000 !important;
+    border-radius: 0px 0px 20px 20px !important;
+}
+.mymargin {
+    margin-right: 4.4rem !important;
+    margin-left: 4.4rem !important;
+}
+.home_sec {
+    background-color: rgba(217, 217, 217, 0.5) !important;
+    overflow-x: hidden !important;
+    min-height: 87vh !important;
+}
+.footer_sec {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #ffffff;
+}
+.main_color_text {
+    color: #021da5;
+}
+.edit_color_text {
+    color: #10ce00;
+}
+.delete_color_text {
+    color: #cf1020;
+}
+.main_color_bg {
+    background-color: #021da5;
+}
+.main_border_color {
+    border-color: #021da5;
+}
+
+.header_img {
+    margin-top: -30px;
+    z-index: -5 !important;
+}
+.header_img_mobile {
+    margin-top: 0px;
+    z-index: -5 !important;
+}
+.footer {
+    background-color: rgba(217, 217, 217, 0.5);
+}
+.discount_bg {
+    background-color: #11e3ab;
+    color: #ffffff;
+}
+.site_shadow {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05) !important;
+}
+.productHight {
+    height: 32rem;
+}
+.notFound {
+    height: 80vh;
+}
+.found {
+    min-height: 80vh;
+}
+.category_card {
+    height: 15rem;
+}
+.modal {
+    transition: opacity 0.25s ease;
+}
+
+body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+}
+.loading_page {
+    height: 95vh;
+    background-color: #ffffff;
+}
+.dialog_h {
+    height: 50vh;
+}
+.filter_dialog {
+    height: 68vh;
+}
+.vue-range-slider.slider-component .slider .slider-process {
+    background-color: #021da5 !important;
+}
+.vue-range-slider.slider-component .slider-tooltip-wrap .slider-tooltip {
+    border: 1px solid #021da5 !important;
+    background-color: #021da5 !important;
+}
+.className {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.className li {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05) !important;
+    margin: 5px;
+}
+.fade-enter {
+    transform: translateY(-70px);
+    opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-activ {
+    transition: all 1.2s ease;
+}
+.fade-leave {
+    transform: translateY(70px);
+    opacity: 0;
+}
+.slide-fade-enter {
+    transform: translateX(10px);
+    opacity: 0;
+}
+.slide-fade-enter-active,
+.slide-fade-leave-activ {
+    transition: all 1.2s ease;
+}
+.slide-fade-leave {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+.slide-fade-move {
+    transition: transform 0.8 ease-in;
+}
+
+.producr_Variant {
+    min-height: 440px;
+}
+.order_sammary_h {
+    height: 440px;
+}
