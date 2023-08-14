@@ -21,10 +21,12 @@
           <div
             class="h-12 w-12 md:h-20 md:w-20 m-auto flex justify-center items-center"
           >
-            <img
-              :src="category.img"
-              class="max-h-12 max-w-12 md:max-h-20 md:max-w-20"
-            />
+            <figure class="relative">
+              <img
+                :src="category.img"
+                class="max-h-12 max-w-12 md:max-h-20 md:max-w-20"
+              />
+            </figure>
           </div>
           <p class="text-xs md:text-xl truncate mt-1 text-center">
             {{ category.Name }}

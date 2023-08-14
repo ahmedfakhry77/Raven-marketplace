@@ -6,15 +6,16 @@
     <transition name="fade" mode="out-in">
       <router-view></router-view>
     </transition>
+    <AppFooter />
   </div>
 </template>
 
 <script>
 import AppBar from "@/components/AppBar";
-
+import AppFooter from "@/components/AppFooter.vue";
 export default {
   name: "App",
-  components: { AppBar },
+  components: { AppBar, AppFooter },
   data() {
     return {};
   },
@@ -24,7 +25,7 @@ export default {
 </script>
 <style lang="css">
 body {
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
 }
 @import "./assets/style.css";
 .btn-link {

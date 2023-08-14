@@ -1,7 +1,7 @@
 <template>
   <div 
   :class="[ badgeType == 'New' ? 'bg-schemeSecondary-green' : 'bg-schemeSecondary-sky']"
-  class="w-12 h-12 rounded-full flex justify-center items-center text-white">
+  class=" w-9 h-9 md:w-12 md:h-12 rounded-full flex justify-center items-center text-white text-xs md:text-base z-10">
     {{ badgeType }}
   </div>
 </template>

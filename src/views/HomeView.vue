@@ -5,8 +5,22 @@
       Explore Popular Categories
     </div>
     <CategoriesCarousel />
-    <div class="w-full text-xl md:text-4xl text-center my-8 font-semibold">
+    <div class="w-full px-8 md:px-20 text-xl md:text-4xl text-start my-8 font-semibold">
       New Arrivals
+    </div>
+    <div class="px-8 md:px-20 my-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+    </div>
+    <div class="w-full px-8 md:px-20 text-xl md:text-4xl text-start my-8 font-semibold">
+      Brands
+    </div>
+    <BrandsCarousel />
+    <div class="w-full px-8 md:px-20 text-xl md:text-4xl text-start my-8 font-semibold">
+      Trending Products
     </div>
     <div class="px-8 md:px-20 my-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
       <ProductCard />
@@ -22,6 +36,7 @@
 // @ is an alias to /src
 import Banner from '@/components/Banner.vue';
 import CategoriesCarousel from '@/components/CategoriesCarousel.vue';
+import BrandsCarousel from '@/components/BrandsCarousel.vue';
 import ProductCard from '@/components/ProductCard.vue';
 export default {
   name: "HomeView",
@@ -29,6 +44,7 @@ export default {
     Banner,
     CategoriesCarousel,
     ProductCard,
+    BrandsCarousel,
   },
 };
 </script>

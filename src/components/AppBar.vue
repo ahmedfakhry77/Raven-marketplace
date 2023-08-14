@@ -41,7 +41,7 @@
                 type="text"
                 id="simple-search"
                 name="keyword"
-                class="bg-gray-50 border border-schemeSecondary-sky text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 "
+                class="bg-gray-50 border border-schemeSecondary-sky text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 "
                 placeholder="Search for products, vendors,..."
                 required
               />
@@ -50,7 +50,7 @@
 
           <button
             type="submit"
-            class="p-2.5 ml-2 text-sm font-medium text-white bg-schemeSecondary-sky rounded hidden sm:block"
+            class="p-2.5 ml-2 text-sm font-medium text-white bg-schemeSecondary-sky rounded-lg hidden sm:block"
           >
             Search
           </button>
